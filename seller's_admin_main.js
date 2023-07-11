@@ -28,8 +28,8 @@ function saveToCloud(event) {
         document.body.innerHTML = document.body.innerHTML + "<h4> Something went wrong. </h4>"
     })
 
-    document.getElementById("productSellingPrice") = ""
-    document.getElementById("productName") = ""
+    document.getElementById("productSellingPrice").value = ""
+    document.getElementById("productName").value = ""
 }
 
 function showProductsOnScreen(obj) {
